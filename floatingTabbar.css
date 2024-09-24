@@ -1,10 +1,11 @@
 #navigator-toolbox {
+  --zen-toolbox-max-width: 74px !important;
   background: none !important;
   border: none !important;
   box-shadow: none !important;
   height: 100vh !important;
   padding: 0 !important;
-  max-width: none !important;
+  min-width: calc(var(--zen-toolbox-max-width) + var(--zen-toolbox-padding) + 6px) !important;
 }
 
 #titlebar {

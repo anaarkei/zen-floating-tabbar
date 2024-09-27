@@ -15,6 +15,13 @@
   margin: calc( var(--zen-element-separation) * 2);
 }
 
+/* Increase space around edge of browser window and tab bar */
+@media (-moz-bool-pref: "uc.floatingtabbar.increase.spacing") {
+  #main-window {
+    --zen-element-separation: 10px !important;
+  }
+}
+
 /* Enable compact tab bar, similar to Smaller Compact Mode by n7itro */
 @media (-moz-bool-pref: "uc.floatingtabbar.compact.enabled") {
   #titlebar {

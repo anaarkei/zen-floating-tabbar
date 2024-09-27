@@ -1,3 +1,4 @@
 {
-    "uc.floatingtabbar.compact.enabled": "Enable compact tab bar, similar to Smaller Compact Mode by n7itro"
+  "uc.floatingtabbar.increase.spacing": "Increase space around edge of browser window and tab bar",
+  "uc.floatingtabbar.compact.enabled": "Enable compact tab bar, similar to Smaller Compact Mode by n7itro"
 }
